@@ -8,6 +8,7 @@ public class ButtonTrigger : MonoBehaviour
     public Safe safe;
     public AudioClip SoundToPlay;
     private float Volume = 1;
+    public Door door;
     AudioSource audio;
  
     // Start is called before the first frame update
