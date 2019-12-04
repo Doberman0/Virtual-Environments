@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class Safe : MonoBehaviour
 {
-    private string cur_input;
+    public string cur_input;
     private string pwd = "1";
     public Door door;
+
 
     // Start is called before the first frame update
     void Start()
@@ -17,10 +18,12 @@ public class Safe : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Update the input bar
+        // Update the input bar
 
-        //Temporary
+        // Temporary
         Debug.Log(cur_input);
+
+        // Update texture
     }
 
     public void ButtonPressed(int input)
@@ -37,7 +40,7 @@ public class Safe : MonoBehaviour
                 Debug.Log("Open sesame");
 
                 StartCoroutine (door.OpenDoor());
-                door.transform.Translate(-.4f, 0, 0);
+                door.transform.Translate(-.4f, 0, -.4f);
                 //door.OpenDoor();
             }
 
