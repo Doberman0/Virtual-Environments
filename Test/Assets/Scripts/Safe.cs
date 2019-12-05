@@ -37,7 +37,7 @@ public class Safe : MonoBehaviour
         {
             if (string.Equals(cur_input, pwd))
             {
-                Debug.Log("Open sesame");
+                //Debug.Log("Open sesame");
 
                 StartCoroutine (door.OpenDoor());
                 door.transform.Translate(-.4f, 0, -.4f);
