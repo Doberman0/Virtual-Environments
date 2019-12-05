@@ -49,10 +49,10 @@ public class Safe : MonoBehaviour
 
         else //You've pressed a number
         {
-            //if (cur_input.Length < 5) //Don't want more than 4 characters entered for pwd
-            //{
-            cur_input += input.ToString();
-            //}
+            if (cur_input.Length < 4) //Don't want more than 4 characters entered for pwd
+            {
+                cur_input += input.ToString();
+            }
         }
     }
 }
