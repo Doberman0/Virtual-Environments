@@ -5,7 +5,7 @@ using UnityEngine;
 public class Safe : MonoBehaviour
 {
     public string cur_input;
-    private string pwd = "1";
+    private string pwd = "1"; // Change this
     public Door door;
 
 
