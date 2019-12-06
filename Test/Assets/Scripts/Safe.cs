@@ -21,7 +21,7 @@ public class Safe : MonoBehaviour
         // Update the input bar
 
         // Temporary
-        Debug.Log(cur_input);
+        // Debug.Log(cur_input);
 
         // Update texture
     }
