@@ -5,7 +5,7 @@ using UnityEngine;
 public class MoveNPC : MonoBehaviour
 {
     public Transform player;
-    public Transform npc;
+    //public Transform npc; //dont even need this tbh
 
     // Start is called before the first frame update
     void Start()
@@ -16,7 +16,8 @@ public class MoveNPC : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // We want the NPC to look at the playerS
+
+        // We want the NPC to look at the player
         transform.LookAt(player.transform);
     }
 }
