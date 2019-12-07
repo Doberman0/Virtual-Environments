@@ -40,7 +40,7 @@ public class Safe : MonoBehaviour
                 //Debug.Log("Open sesame");
 
                 StartCoroutine (door.OpenDoor());
-                door.transform.Translate(-.4f, 0, -.4f);
+                door.transform.Translate(-.4f, 0, 0); //-.4f);
                 //door.OpenDoor();
             }
 
