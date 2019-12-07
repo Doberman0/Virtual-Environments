@@ -7,7 +7,6 @@ TagManager:
   - Fire
   - projectile
   - FxTemporaire
-  - Wizard
   layers:
   - Default
   - TransparentFX

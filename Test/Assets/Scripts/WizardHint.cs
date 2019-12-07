@@ -17,7 +17,7 @@ public class WizardHint : MonoBehaviour
 
     public void OnTriggerEnter()
     {
-        if (!alreadyPlayed) // && c.tag == "player")
+        if (!alreadyPlayed)
         {
             audio.PlayOneShot(SoundToPlay, Volume);
             alreadyPlayed = true;
